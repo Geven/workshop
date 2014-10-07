@@ -19,7 +19,7 @@ class Router {
                     $this->root = $val["root"];
                     $this->path = $val["map"];
 
-                    //здесь мы также можем обработать роутинг на основании query
+                    //здесь мы также можем обработать роутинг для  query
 
                     break;
                 }
