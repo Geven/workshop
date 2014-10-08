@@ -1,9 +1,9 @@
 {
     "list": [
         {
-            "path": "",
-            "map": "",
-            "root": ""
+            "path": "/",
+            "map": "/index.php",
+            "root": "/www/by/xozmarket/www"
         }
     ]
 }
