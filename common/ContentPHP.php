@@ -1,4 +1,6 @@
 <?php
+require($_SERVER["DOCUMENT_ROOT"] . "/common/Component.php");
+
 class ContentPHP extends Content {
     function __construct() {
     }
