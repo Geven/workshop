@@ -2,20 +2,21 @@
 namespace common;
 
 class Model {
-    public $owner;
+    public $parent;
     public $data;
 
-    function __construct($owner) {
-        $this->owner = $owner;
-        $this->populate();
+    function __construct($parent) {
+        $this->parent = $parent;
+        $this->mine();
     }
 
-    function populate() {
-        if($this->owner->cache) {
-            $path = $_SERVER["DOCUMENT_ROOT"] . "{$GLOBALS["router"]->root}/component/cache/_m_{$this->owner->name}_{$this->owner->id}.php";
+    function mine() {
+        if($this->parent->cache) {
+            $path = $_SERVER["DOCUMENT_ROOT"] . "{$GLOBALS["router"]->root}/component/cache/_m_{$this->parent->name}_{$this->parent->id}.php";
             $file = file_exists($path);
+
             if($file) {
-                $alive = ((filemtime($path) + $this->owner->life) > time());
+                $alive = ((filemtime($path) + $this->parent->life) > time());
 
                 if($alive) {
                     $this->data = unserialize(file_get_contents($path));
@@ -41,6 +42,5 @@ class Model {
         }
     }
 
-    function process() {
-    }
+    function process() {}
 }

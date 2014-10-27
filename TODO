@@ -1,0 +1,34 @@
+1.Определение домашней директории проекта согласно имени, хоста, доменной зоны.
+
+а)by
+www.xozmarket.by -> Hello request www.xozmarket.by root by/xozmarket/www
+xozmarket.by -> Hello request xozmarket.by root by/xozmarket/www
+www.a.xozmarket.by -> Hello request www.a.xozmarket.by root by/xozmarket/a
+a.xozmarket.by -> Hello request www.a.xozmarket.by root by/xozmarket/a
+
+б)ru
+www.xozmarket.ru -> Hello request www.xozmarket.ru root ru/xozmarket/www
+xozmarket.ru -> Hello request xozmarket.ru root ru/xozmarket/www
+www.a.xozmarket.ru -> Hello request www.a.xozmarket.ru root ru/xozmarket/a
+a.xozmarket.ru -> Hello request www.a.xozmarket.ru root ru/xozmarket/a
+
+Отчет: +
+
+2. Редирект запроса.
+а) проверка наличия map.json для проекта
+б) наличие сопоставления: переопределение рутовой директории и пути
+    1)переопределение рутовой директории
+    2)переопределение пути
+    3)переопределение рутовой директории и пути
+в) отсутствие сопоставления
+    1)рутовая директория и запрос остаются неизменными
+
+Отчет: +
+
+
+3. Подключение компонента
+а) путь к модели компонента ищем относительно подключенного файла +
+б) путь к вью компонента ищем относительно подключенного файла +
+в) отсутствие локальной модели приводит к подключению глобальной модели, а отсутствие глобальной модели - к ошибке и прекращению работы скрипта
+г) отсутствие локальной вью приводит к подключению глобальной вью, а отсутствие глобальной вью - к ошибке и прекращению работы скрипта
+

@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"></head><body><a href="http://www.xozmarket.by/component/passport/controller.php?action=confirm&secret=73974b1ad2f9c818291823483d165314">Подвердить</a></body></html>

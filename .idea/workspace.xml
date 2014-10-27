@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d813c1ac-c510-47af-ad61-2d0dee0aef23" name="Default" comment="Add index.php routing">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/_aTest/template/.default/.default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/_bTest/template/.default/.default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/_cTest/template/.default/.default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/_dTest/template/.default/.default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/account/template/.default/.default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/passport/template/.default/.default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/registration/template/.default/.default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/ContentCSS.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/ContentJS.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/ContentNULL.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/account/Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/passport/Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/registration/Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/_aTest/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/_bTest/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/_cTest/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/_dTest/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/passport/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/registration/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/upload/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/Model2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TODO" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/_aTest/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/_bTest/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/_cTest/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/_dTest/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/account/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/passport/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/registration/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/upload/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/View2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/account/template/.default/js/account.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/a/controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/b/controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/c/controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/d/controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/e/controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/f/controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/input/controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/page/controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/passport/controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/js/domReady.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/domReady.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/email/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/ru/xozmarket/www/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/a/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/b/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/bus/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/c/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/cache/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/d/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/e/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/f/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/input/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/page/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/passport/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/service/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/a/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/b/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/c/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/d/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/e/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/f/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/input/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/page/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/passport/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/passport/template/.default/js/passport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/registration/template/.default/js/registration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/page/registration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/js/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/a/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/b/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/c/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/d/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/e/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/f/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/input/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/page/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/passport/view.js" />
+      <change type="DELETED" beforePath="C:\wamp\www\workshop\common\Component.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\workshop\common\Model.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\workshop\common\View.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\workshop\www\by\xozmarket\www\component\_a\template\.default\.default.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\workshop\www\by\xozmarket\www\component\_a\template\.mobile\.mobile.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\workshop\www\by\xozmarket\www\component\_b\View.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\workshop\www\by\xozmarket\www\component\_b\template\.default\.default.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\workshop\www\by\xozmarket\www\component\_c\View.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\workshop\www\by\xozmarket\www\component\_c\template\.default\.default.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\workshop\www\by\xozmarket\www\component\_d\View.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\workshop\www\by\xozmarket\www\component\_d\template\.default\.default.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\workshop\www\by\xozmarket\www\component\a\v.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\workshop\www\by\xozmarket\www\component\b\model.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\workshop\www\by\xozmarket\www\component\c\model.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\workshop\www\by\xozmarket\www\component\d\model.php" afterPath="" />
+      <change type="MOVED" beforePath="C:\wamp\www\workshop\www\by\xozmarket\www\component\_a\Model.php" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/account/Model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/ContentPHP.php" afterPath="$PROJECT_DIR$/common/ContentPHP.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/Factory.php" afterPath="$PROJECT_DIR$/common/Factory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/Resource.php" afterPath="$PROJECT_DIR$/common/Resource.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/by/xozmarket/www/index.php" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/main.php" afterPath="$PROJECT_DIR$/www/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/by/xozmarket/www/map.json" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/map.json" />
+    </list>
+    <ignored path="workshop.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="workshop" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".default.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/.default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="1802">
+              <caret line="258" column="17" selection-start-line="258" selection-start-column="4" selection-end-line="258" selection-end-column="17" />
+              <folding>
+                <element signature="tag#style#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formAdd.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/page/formAdd.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="697">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adding_form.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/adding_form.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836">
+              <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/_aTest/template/.default/.default.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/_bTest/template/.default/.default.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/_bTest/View.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/_aTest/View.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/_cTest/Model.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/_bTest/Model.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/_cTest/View.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/_cTest/template/.default/.default.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/_dTest/Model.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/_dTest/template/.default/.default.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/_dTest/View.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/cache/_v__cTest_d4fd4f65ca9e3e7d40954d66f4808d77.php" />
+        <option value="$PROJECT_DIR$/common/Util.php" />
+        <option value="$PROJECT_DIR$/common/Branch.php" />
+        <option value="$PROJECT_DIR$/common/User.php" />
+        <option value="$PROJECT_DIR$/common/Tree.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/passport/View.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/passport/template/.default/js/passport.js" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/passport/Controller.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/registration/View.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/registration/template/pipe.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/account/template/.default/js/account.js" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/account/Controller.php" />
+        <option value="$PROJECT_DIR$/common/ContentPHP.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/index.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/passport/Model.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/registration/Model.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/page/registration.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/map.json" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/registration/template/.default/.default.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/registration/template/.default/js/registration.js" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/registration/Controller.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/passport.js" />
+        <option value="$PROJECT_DIR$/../train.com/adding_product.html" />
+        <option value="$PROJECT_DIR$/../bootstrap/bootstrap/css/adding_product.css" />
+        <option value="$PROJECT_DIR$/../bootstrap/bootstrap/js/validation_of_form.js" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/require.min.js" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/css/form_adding.css" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/validation.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/passport/template/.default/.default.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/pipe.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/Model.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/Controller.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/View.php" />
+        <option value="$PROJECT_DIR$/common/404.php" />
+        <option value="$PROJECT_DIR$/common/js/validate.js" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/page/formAdd.php" />
+        <option value="$PROJECT_DIR$/../train.com/12.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/adding_form.js" />
+        <option value="F:/workshop/www/by/xozmarket/www/component/form_adding/template/.default/.default.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/.default.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistory" value="&#10;$component-&gt;output();&#10;'&#10;-&gt;" />
+    <property name="options.lastSelected" value="preferences.toDoOptions" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/www/by/xozmarket/www/page" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\workshop\common\js" />
+      <recent name="C:\wamp\www\workshop\www\by\xozmarket\www\page" />
+      <recent name="C:\wamp\www\workshop\www\by\xozmarket\www\component\form_adding\template\.default\js" />
+      <recent name="C:\wamp\www\workshop\www\by\xozmarket\www\component\form_adding\template\.default" />
+      <recent name="C:\wamp\www\workshop\www\by\xozmarket\www\component\form_adding\template\.default\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\XAMPP\htdocs\workshop\www\by\xozmarket\www\component\registration\template\.default\js" />
+      <recent name="C:\XAMPP\htdocs\workshop\www\by\xozmarket\www\component\account\template" />
+      <recent name="C:\XAMPP\htdocs\workshop\www\by\xozmarket\www\component\account\template\.default\js" />
+      <recent name="C:\XAMPP\htdocs\workshop\www\by\xozmarket\www\component\account" />
+      <recent name="C:\XAMPP\htdocs\workshop\www\by\xozmarket\www\component\registration" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d813c1ac-c510-47af-ad61-2d0dee0aef23" name="Default" comment="" />
+      <created>1410416311968</created>
+      <option name="number" value="Default" />
+      <updated>1410416311968</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Init.">
+      <created>1411571987202</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1411571987202</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Detect project's home directory according to name, host, domain zone.">
+      <created>1412671974233</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1412671974233</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add error handling for an absence of a map.json.">
+      <created>1412672701968</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1412672701968</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add detection of a  project's home directory according to name, host, domain zone.">
+      <created>1412673703702</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1412673703702</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add checking of presence of a map.json.">
+      <created>1412673824452</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1412673824452</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add default map.json.">
+      <created>1412674192218</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1412674192218</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add request routing.">
+      <created>1412674397233</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1412674397233</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Change comment.">
+      <created>1412677807390</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1412677807390</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add ability to output php resource.">
+      <created>1412678231640</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1412678231640</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add index.php.">
+      <created>1412678378421</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1412678378421</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add require declaration.">
+      <created>1412750581109</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1412750581109</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add base component architecture.">
+      <created>1412750747749</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1412750747749</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add component set for testing.">
+      <created>1412751086546</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1412751086546</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31336898" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2942899" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32834226" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32834226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24387646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Init." />
+    <MESSAGE value="Detect project's home directory according to name, host, domain zone." />
+    <MESSAGE value="Add error handling for an absence of a map.json." />
+    <MESSAGE value="Add detection of a  project's home directory according to name, host, domain zone." />
+    <MESSAGE value="Add checking of presence of a map.json." />
+    <MESSAGE value="Add default map.json." />
+    <MESSAGE value="Add request routing." />
+    <MESSAGE value="Change comment." />
+    <MESSAGE value="Add ability to output php resource." />
+    <MESSAGE value="Add index.php." />
+    <MESSAGE value="Add require declaration." />
+    <MESSAGE value="Add base component architecture." />
+    <MESSAGE value="Add component set for testing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add component set for testing." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/adding_form.js</url>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/registration/template/pipe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="204">
+          <caret line="5" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34251103" vertical-offset="2613" max-vertical-offset="6545">
+          <caret line="172" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/account/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="731">
+          <caret line="35" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="493">
+          <caret line="19" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/Resource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="238">
+          <caret line="4" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/Factory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="934">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="731">
+          <caret line="37" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="391">
+          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/_superglobals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2545757" vertical-offset="0" max-vertical-offset="3944">
+          <caret line="9" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/passport/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="510">
+          <caret line="14" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/registration/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="510">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/map.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="663">
+          <caret line="9" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/registration/template/.default/js/registration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="2822">
+          <caret line="147" column="26" selection-start-line="147" selection-start-column="26" selection-end-line="147" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/Captcha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1564">
+          <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/registration/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5769231" vertical-offset="2373" max-vertical-offset="3944">
+          <caret line="142" column="53" selection-start-line="142" selection-start-column="53" selection-end-line="142" selection-end-column="53" />
+          <folding>
+            <marker date="1413733850000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user..." />
+            <marker date="1413733850000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1413733850000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../brest/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12580">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../train.com/adding_product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7371134" vertical-offset="1288" max-vertical-offset="1938">
+          <caret line="101" column="0" selection-start-line="94" selection-start-column="4" selection-end-line="101" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bootstrap/bootstrap/js/validation_of_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.027960526" vertical-offset="323" max-vertical-offset="1768">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bootstrap/bootstrap/css/adding_product.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30756578" vertical-offset="0" max-vertical-offset="3213">
+          <caret line="11" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/city_selection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3145">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/validation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.060822897" vertical-offset="0" max-vertical-offset="559">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/registration/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/pipe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.087628864" vertical-offset="0" max-vertical-offset="582">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/passport/template/pipe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="582">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/ContentPHP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="527">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/ContentCSS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58497316" vertical-offset="200" max-vertical-offset="850">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/passport/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31985942" vertical-offset="2453" max-vertical-offset="5151">
+          <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/Branch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56766254" vertical-offset="697" max-vertical-offset="1734">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029876977" vertical-offset="0" max-vertical-offset="680">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="582">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/page/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9415808" vertical-offset="115" max-vertical-offset="765">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/registration/template/.default/.default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="918">
+          <caret line="5" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/css/form_adding.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2856" max-vertical-offset="4199">
+          <caret line="171" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="241" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/js/domReady.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2278">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/ContentJS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/js/validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.114285715" vertical-offset="0" max-vertical-offset="8194">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/cms.config.handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.692308" vertical-offset="2106" max-vertical-offset="7242">
+          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+          <folding>
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="SELECT user...visichat_members..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="SELECT u.id ..visichat_members..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..skadate_admin..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="SELECT if (f..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..chat7_friendlist..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="UPDATE userl..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="SELECT id_us..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..chat7_blocklist..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="UPDATE userl..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="UPDATE vld_m..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..vld_friends..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="UPDATE vld_m..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..vld_friends..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="UPDATE vld_m..." />
+            <marker date="1414151185623" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..vld_blocked..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/account/template/.default/.default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="357">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/account/template/.default/js/account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/upload/template/.default/.default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="582">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/passport/template/.default/js/passport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/passport/template/.default/.default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="867">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../train.com/12.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/workshop/www/by/xozmarket/www/component/form_adding/template/.default/.default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14604811" vertical-offset="0" max-vertical-offset="1581">
+          <caret line="245" column="18" selection-start-line="245" selection-start-column="18" selection-end-line="245" selection-end-column="18" />
+          <folding>
+            <element signature="tag#style#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/.default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="1802">
+          <caret line="258" column="17" selection-start-line="258" selection-start-column="4" selection-end-line="258" selection-end-column="17" />
+          <folding>
+            <element signature="tag#style#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/page/formAdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="697">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/adding_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

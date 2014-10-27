@@ -4,6 +4,43 @@
             "path": "/",
             "map": "/index.php",
             "root": "/www/by/xozmarket/www"
+        },
+        {
+            "path": "/registration.php",
+            "map": "/page/registration.php",
+            "root": "/www/by/xozmarket/www"
+        },
+        {
+            "path": "/require.js",
+            "map": "/js/require.js",
+            "root": "/common"
+        },
+        {
+            "path": "/js/jquery.js",
+            "map": "/js/jquery.js",
+            "root": "/common"
+        },
+        {
+            "path": "/js/validate.js",
+            "map": "/js/validate.js",
+            "root": "/common"
+        },
+        
+		{
+            "path": "/js/domReady.js",
+            "map": "/js/domReady.js",
+            "root": "/common"
+        },
+        {
+            "path": "/component/upload/pipe.php",
+            "map": "/component/upload/",
+            "root": "/common"
+        },
+		        {
+            "path": "/formAdd.php",
+            "map": "/page/formAdd.php",
+            "root": "/www/by/xozmarket/www"
         }
+
     ]
 }
