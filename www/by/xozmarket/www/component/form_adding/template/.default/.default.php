@@ -242,28 +242,66 @@ doesnotexist:-o-prefocus, #companyTelephoneLabel {
 .companyShiftHide{
     border:1px solid lightgoldenrodyellow;
     background-color: honeydew;
-    width:500px;
-    height:300px;
-    display: none;
+    width:600px;
+    height:370px;
+    display:;
     margin-top: 36px;
 }
 
-.
+.mondayShift{
+    //border:1px solid black;
+    width:600px;
+    height:30px;
+    margin-left:0px;
+    margin-top:20px;
+}
 
+.mondayName{
+    width:30px;
+    height:25px;
+    background-color: #ADD8E6;
+}
+.mondayWorkShift{
+    //border:1px solid black;
+    margin-top: -27px;
+    margin-left: 45px;
+    font-size: 12px;
 
-    </style>
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>-->
+}
 
+#mondayInput{
+    width:90px;
+    height: 30px;
+}
 
+.mondayDinnerTime{
+    margin-top:-30px;
+    margin-left: 240px;
+    font-size: 12px;
+}
+#mondayDinnerInput{
+    width:90px;
+    height: 30px;
+}
+
+.mondayDayOff{
+    //border:1px solid black;
+    margin-top: -30px;
+    margin-left: 430px;
+    width:150px;
+}
+
+#mondayDayOffInput{
+    height:30px;
+}
+</style>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <div>
 
     <script type="text/javascript">
         require.paths.form_adding = "/component/form_adding/template/<?= $this->template ?>/js/form_adding";
         require.paths.city_selection = "/component/form_adding/template/<?= $this->template ?>/js/city_selection";
-
     </script>
-
 
     <link class="form_adding">
 
@@ -318,18 +356,19 @@ doesnotexist:-o-prefocus, #companyTelephoneLabel {
                 </label>
 
                 <div id="companyTelephoneDiv">
+
                     <input type="text" id="companyTelephoneInput" name="telephoneOfCompany"/>
 
                 </div>
             </div>
-            <!--<script type="text/javascript">
+           <script type="text/javascript">
                 $(document).ready(function(){
                 $('#companyShiftInput').click(function(){
                     $('.companyShiftHide').show();
                 });
                 });
-            </script>-->
-            <div class = "companyShift">
+            </script>
+           <div class = "companyShift">
                 <label id = "companyShiftLabel">
                     Время работы
                 </label>
@@ -339,8 +378,182 @@ doesnotexist:-o-prefocus, #companyTelephoneLabel {
             </div>
 
             <div class = "companyShiftHide">
+                <div class = "mondayShift">
+                    <div class = "mondayName">
+                        ПН
+                    </div>
+                    <div class = "mondayWorkShift">
+                        Режим работы: <select id="mondayInput" name="mondayWorkShift">
+                                        <option>9:00-18:00</option>
+                                        <option>10:00-19:00</option>
+                    </select>
+                    </div>
+                    <div class = "mondayDinnerTime">
+                        Время обеда: <select id="mondayDinnerInput" name="mondayDinnerShift">
+                                        <option>13:00-14:00</option>
+                                        <option>14:00-15:00</option>
+                        </select>
+                        </div>
+                    <div class="mondayDayOff">
+                         <select id="mondayDayOffInput" name="mondayDayOff">
+                             <option>Рабочий</option>
+                             <option>Выходной</option>
+                         </select>
+                    </div>
 
+                </div>
 
+                <div class = "mondayShift">
+                    <div class = "mondayName">
+                        ВТ
+                    </div>
+                    <div class = "mondayWorkShift">
+                        Режим работы: <select id="mondayInput" name="tuesdayWorkShift">
+                            <option>9:00-18:00</option>
+                            <option>10:00-19:00</option>
+                        </select>
+                    </div>
+                    <div class = "mondayDinnerTime">
+                        Время обеда: <select id="mondayDinnerInput" name="tuesdayDinnerShift">
+                            <option>13:00-14:00</option>
+                            <option>14:00-15:00</option>
+                        </select>
+                    </div>
+                    <div class="mondayDayOff">
+                        <select id="mondayDayOffInput" name="tuesdayDayOff">
+                            <option>Рабочий</option>
+                            <option>Выходной</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class = "mondayShift">
+                    <div class = "mondayName">
+                        СР
+                    </div>
+                    <div class = "mondayWorkShift">
+                        Режим работы: <select id="mondayInput" name="wednesdayWorkShift">
+
+                            <option>9:00-18:00</option>
+                            <option>10:00-19:00</option>
+                        </select>
+                    </div>
+                    <div class = "mondayDinnerTime">
+                        Время обеда: <select id="mondayDinnerInput" name="wednesdayDinnerShift">
+                            <option>13:00-14:00</option>
+                            <option>14:00-15:00</option>
+                        </select>
+                    </div>
+                    <div class="mondayDayOff">
+                        <select id="mondayDayOffInput" name="wednesdayDayOff">
+                            <option>Рабочий</option>
+                            <option>Выходной</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class = "mondayShift">
+                    <div class = "mondayName">
+                        ЧТ
+                    </div>
+                    <div class = "mondayWorkShift">
+                        Режим работы: <select id="mondayInput" name="thursdayWorkShift">
+
+                            <option>9:00-18:00</option>
+                            <option>10:00-19:00</option>
+                        </select>
+                    </div>
+                    <div class = "mondayDinnerTime">
+                        Время обеда: <select id="mondayDinnerInput" name="thursdayDinnerShift">
+                            <option>13:00-14:00</option>
+                            <option>14:00-15:00</option>
+                        </select>
+                    </div>
+                    <div class="mondayDayOff">
+                        <select id="mondayDayOffInput" name="thursdayDayOff">
+                            <option>Рабочий</option>
+                            <option>Выходной</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class = "mondayShift">
+                    <div class = "mondayName">
+                        ПТ
+                    </div>
+                    <div class = "mondayWorkShift">
+                        Режим работы: <select id="mondayInput" name="fridayWorkShift">
+                            <option>9:00-18:00</option>
+                            <option>10:00-19:00</option>
+                        </select>
+                    </div>
+                    <div class = "mondayDinnerTime">
+                        Время обеда: <select id="mondayDinnerInput" name="fridayDinnerShift">
+                            <option>13:00-14:00</option>
+                            <option>14:00-15:00</option>
+                        </select>
+                    </div>
+                    <div class="mondayDayOff">
+                        <select id="mondayDayOffInput" name="fridayDayOff">
+                            <option>Рабочий</option>
+                            <option>Выходной</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class = "mondayShift">
+                    <div class = "mondayName">
+                        СБ
+                    </div>
+                    <div class = "mondayWorkShift">
+                        Режим работы: <select id="mondayInput" name="saturdayWorkShift">
+                            <option>9:00-18:00</option>
+                            <option>10:00-19:00</option>
+                        </select>
+                    </div>
+                    <div class = "mondayDinnerTime">
+                        Время обеда: <select id="mondayDinnerInput" name="saturdayDinnerShift">
+                            <option>13:00-14:00</option>
+                            <option>14:00-15:00</option>
+                        </select>
+                    </div>
+                    <div class="mondayDayOff">
+                        <select id="mondayDayOffInput" name="saturdayDayOff">
+                            <option>Выходной</option>
+                            <option>Рабочий</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class = "mondayShift">
+                    <div class = "mondayName">
+                        ВС
+                    </div>
+                    <div class = "mondayWorkShift">
+                        Режим работы: <select id="mondayInput" name="sundayWorkShift">
+                            <option>9:00-18:00</option>
+                            <option>10:00-19:00</option>
+                        </select>
+                    </div>
+                    <div class = "mondayDinnerTime">
+                        Время обеда: <select id="mondayDinnerInput" name="sundayDinnerShift">
+                            <option>13:00-14:00</option>
+                            <option>14:00-15:00</option>
+                        </select>
+                    </div>
+                    <div class="mondayDayOff">
+                        <select id="mondayDayOffInput" name="sundayDayOff">
+                            <option>Выходной</option>
+                            <option>Рабочий</option>
+                        </select>
+                    </div>
+
+                </div>
 
             </div>
 
