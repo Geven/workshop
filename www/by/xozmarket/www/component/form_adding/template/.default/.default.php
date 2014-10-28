@@ -215,9 +215,16 @@ doesnotexist:-o-prefocus, #companyTelephoneLabel {
 }
 
 #companyShiftInput{
-    width: 200px;
-    height: 36px;
-
+    width: 170px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: cursive;
+    border: 1px solid lightblue;
+    background-color: lightblue;
+    //margin-left: -50px;
+    padding-top:10px;
+    padding-left: 9px;
 }
 
 .submitButton{
@@ -244,7 +251,7 @@ doesnotexist:-o-prefocus, #companyTelephoneLabel {
     background-color: honeydew;
     width:600px;
     height:370px;
-    display:;
+    display: none;
     margin-top: 36px;
 }
 
@@ -295,13 +302,13 @@ doesnotexist:-o-prefocus, #companyTelephoneLabel {
     height:30px;
 }
 </style>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-    <script type="text/javascript">
-        require.paths.form_adding = "/component/form_adding/template/<?= $this->template ?>/js/form_adding";
-        require.paths.city_selection = "/component/form_adding/template/<?= $this->template ?>/js/city_selection";
-    </script>
+        <script type="text/javascript">
+            require.paths.form_adding = "/component/form_adding/template/<?= $this->template ?>/js/form_adding";
+            require.paths.city_selection = "/component/form_adding/template/<?= $this->template ?>/js/city_selection";
+        </script>
 
     <link class="form_adding">
 
@@ -357,7 +364,7 @@ doesnotexist:-o-prefocus, #companyTelephoneLabel {
 
                 <div id="companyTelephoneDiv">
 
-                    <input type="text" id="companyTelephoneInput" name="telephoneOfCompany"/>
+                    <input type="text" id="companyTelephoneInput" onclick = "return checkTel();" name="telephoneOfCompany"/>
 
                 </div>
             </div>
@@ -366,14 +373,29 @@ doesnotexist:-o-prefocus, #companyTelephoneLabel {
                 $('#companyShiftInput').click(function(){
                     $('.companyShiftHide').show();
                 });
+
                 });
-            </script>
+
+                function checkTel() {
+                    var strTel = $('#companyTelephoneInput').val();
+
+                    var check = new RegExp('^[0-9]+$');
+                    if (!check.test(strTel)) {
+                        console.log('RegExp failed');
+                    }
+                    if (check.test(strTel)) {
+                        console.log('RegExp true');
+                    }
+                    console.log(strTel);
+
+                }
+               </script>
            <div class = "companyShift">
                 <label id = "companyShiftLabel">
-                    Время работы
+
                 </label>
                 <div id="companyShiftDiv">
-                    <input type="text" id="companyShiftInput" name="shiftOfCompany" />
+                    <div type="text" id="companyShiftInput" name="shiftOfCompany">Указать время работы</div>
                 </div>
             </div>
 
