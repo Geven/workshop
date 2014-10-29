@@ -1,4 +1,4 @@
-define(["jquery","city_selection","validate"], function($, city_selection){
+define(["jquery","city_selection", "telephone_check","validate"], function($    ){
     function form_adding(container) {
         var z;
 

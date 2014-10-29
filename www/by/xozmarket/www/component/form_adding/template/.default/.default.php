@@ -333,6 +333,7 @@ doesnotexist:-o-prefocus, #companyTelephoneLabel {
         <script type="text/javascript">
             require.paths.form_adding = "/component/form_adding/template/<?= $this->template ?>/js/form_adding";
             require.paths.city_selection = "/component/form_adding/template/<?= $this->template ?>/js/city_selection";
+            require.paths.telephone_check = "/component/form_adding/template/<?= $this->template ?>/js/telephone_check";
         </script>
 
     <link class="form_adding">
@@ -393,33 +394,7 @@ doesnotexist:-o-prefocus, #companyTelephoneLabel {
                         <div class="telerr"></div>
                     </div>
             </div>
-           <script type="text/javascript">
-                $(document).ready(function(){
-                $('#companyShiftInput').click(function(){
-                    $('.companyShiftHide').show();
-                });
-                $('.companyCloseButtonDiv').click(function(){
-                   $('.companyShiftHide').hide();
-                });
 
-                });
-
-                function checkTel() {
-                    var strTel = $('#companyTelephoneInput').val();
-
-                    var check = new RegExp('^[0-9-]{16,17}$');
-                    if (!check.test(strTel)) {
-                        $('.telerr').html('Пожалуйста укажите телефон в формате код страны-код города-телефон, например' +
-                        ' 375-29-222-22-22');
-                        console.log('false');
-                    }
-                    if (check.test(strTel)) {
-                        $('.telerr').html('');
-                        ;
-                    }
-
-                }
-               </script>
            <div class = "companyShift">
                 <label id = "companyShiftLabel">
 

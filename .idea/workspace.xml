@@ -4,7 +4,6 @@
     <list default="true" id="d813c1ac-c510-47af-ad61-2d0dee0aef23" name="Default" comment="Add index.php routing">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/.default.php" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/.default.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/form_adding.js" afterPath="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/form_adding.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="workshop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,21 +28,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".default.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".default.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/.default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614" vertical-offset="6698" max-vertical-offset="10693">
-              <caret line="395" column="17" selection-start-line="395" selection-start-column="17" selection-end-line="395" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.029209621" vertical-offset="5763" max-vertical-offset="10098">
+              <caret line="340" column="3" selection-start-line="340" selection-start-column="3" selection-end-line="340" selection-end-column="3" />
+              <folding>
+                <element signature="tag#div#4;tag#div#0;tag#form#0;tag#div#0;tag#div#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_adding.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/form_adding.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2125">
+              <caret line="0" column="80" selection-start-line="0" selection-start-column="80" selection-end-line="0" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form_adding.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/form_adding.js">
+      <file leaf-file-name="telephone_check.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/telephone_check.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.077302635" vertical-offset="1449" max-vertical-offset="2125">
-              <caret line="88" column="25" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,8 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/_bTest/template/.default/.default.php" />
-        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/_bTest/View.php" />
         <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/_aTest/View.php" />
         <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/_cTest/Model.php" />
         <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/_bTest/Model.php" />
@@ -111,6 +120,8 @@
         <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/adding_form.js" />
         <option value="F:/workshop/www/by/xozmarket/www/component/form_adding/template/.default/.default.php" />
         <option value="$PROJECT_DIR$/www/by/xozmarket/www/page/formAdd.php" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/telephoneCheck.js" />
+        <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/telephone_check.js" />
         <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/form_adding.js" />
         <option value="$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/.default.php" />
       </list>
@@ -199,9 +210,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\workshop\www\by\xozmarket\www\component\form_adding\template\.default\js" />
       <recent name="C:\wamp\www\workshop\common\js" />
       <recent name="C:\wamp\www\workshop\www\by\xozmarket\www\page" />
-      <recent name="C:\wamp\www\workshop\www\by\xozmarket\www\component\form_adding\template\.default\js" />
       <recent name="C:\wamp\www\workshop\www\by\xozmarket\www\component\form_adding\template\.default" />
       <recent name="C:\wamp\www\workshop\www\by\xozmarket\www\component\form_adding\template\.default\css" />
     </key>
@@ -784,19 +795,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/.default.php">
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/form_adding.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="6698" max-vertical-offset="10693">
-          <caret line="395" column="17" selection-start-line="395" selection-start-column="17" selection-end-line="395" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2125">
+          <caret line="0" column="80" selection-start-line="0" selection-start-column="80" selection-end-line="0" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/form_adding.js">
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/js/telephone_check.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.077302635" vertical-offset="1449" max-vertical-offset="2125">
-          <caret line="88" column="25" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/by/xozmarket/www/component/form_adding/template/.default/.default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029209621" vertical-offset="5763" max-vertical-offset="10098">
+          <caret line="340" column="3" selection-start-line="340" selection-start-column="3" selection-end-line="340" selection-end-column="3" />
+          <folding>
+            <element signature="tag#div#4;tag#div#0;tag#form#0;tag#div#0;tag#div#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
