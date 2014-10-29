@@ -72,6 +72,13 @@ define(["jquery","city_selection","validate"], function($, city_selection){
                         if (request) {
                             request.abort();
                         }
+
+                            var strTel = $('#companyTelephoneInput').val();
+
+                            var check = new RegExp('^[0-9-]{16,17}$');
+                            if (!check.test(strTel)) {
+                                request.abort()
+                            }
                         var $form = $(this);
 
                         var serializedData = $form.serializeArray();

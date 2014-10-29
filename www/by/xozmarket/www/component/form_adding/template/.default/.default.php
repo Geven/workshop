@@ -255,6 +255,22 @@ doesnotexist:-o-prefocus, #companyTelephoneLabel {
     margin-top: 36px;
 }
 
+.companyCloseButtonDiv{
+    border: 1px solid brown;
+    color:white;
+    width:15px;
+    height:17px;
+    background-color: brown;
+    margin-left: 578px;
+    margin-top:1px;
+    padding-left: 5px;
+    display: block;
+}
+
+.companyCloseButtonDivText{
+    margin-top: -5px;
+}
+
 .mondayShift{
     //border:1px solid black;
     width:600px;
@@ -301,6 +317,15 @@ doesnotexist:-o-prefocus, #companyTelephoneLabel {
 #mondayDayOffInput{
     height:30px;
 }
+
+.telerr{
+    //border: 1px solid black;
+    width:600px;
+    height: 20px;
+    color:#FF386A;
+    font-size: 13px;
+}
+
 </style>
 <div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -362,16 +387,19 @@ doesnotexist:-o-prefocus, #companyTelephoneLabel {
                     Телефон
                 </label>
 
-                <div id="companyTelephoneDiv">
+                    <div id="companyTelephoneDiv">
 
-                    <input type="text" id="companyTelephoneInput" onclick = "return checkTel();" name="telephoneOfCompany"/>
-
-                </div>
+                        <input type="text" id="companyTelephoneInput" onblur = "return checkTel();" name="telephoneOfCompany"/>
+                        <div class="telerr"></div>
+                    </div>
             </div>
            <script type="text/javascript">
                 $(document).ready(function(){
                 $('#companyShiftInput').click(function(){
                     $('.companyShiftHide').show();
+                });
+                $('.companyCloseButtonDiv').click(function(){
+                   $('.companyShiftHide').hide();
                 });
 
                 });
@@ -379,14 +407,16 @@ doesnotexist:-o-prefocus, #companyTelephoneLabel {
                 function checkTel() {
                     var strTel = $('#companyTelephoneInput').val();
 
-                    var check = new RegExp('^[0-9]+$');
+                    var check = new RegExp('^[0-9-]{16,17}$');
                     if (!check.test(strTel)) {
-                        console.log('RegExp failed');
+                        $('.telerr').html('Пожалуйста укажите телефон в формате код страны-код города-телефон, например' +
+                        ' 375-29-222-22-22');
+                        console.log('false');
                     }
                     if (check.test(strTel)) {
-                        console.log('RegExp true');
+                        $('.telerr').html('');
+                        ;
                     }
-                    console.log(strTel);
 
                 }
                </script>
@@ -400,6 +430,7 @@ doesnotexist:-o-prefocus, #companyTelephoneLabel {
             </div>
 
             <div class = "companyShiftHide">
+                <div class="companyCloseButtonDiv"><div class="companyCloseButtonDivText">x</div></div>
                 <div class = "mondayShift">
                     <div class = "mondayName">
                         ПН
