@@ -28,7 +28,7 @@
 <?php
 $user = new User();
 $GLOBALS["user"] = &$user;
-$branch = new Branch("local", "formAdding", ".default", false, 0, array(), $this);
+$branch = new Branch("local", "imageAdding", ".default", false, 0, array(), $this);
 ?>
 
 <script data-main="<?=$root?>/js/app.js" src="<?=$root?>/require.js"></script>

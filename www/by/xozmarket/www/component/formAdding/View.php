@@ -1,5 +1,5 @@
 <?php
-namespace local\form_adding;
+namespace local\formAdding;
 
 class View extends \common\View{
     function process() {

@@ -1,5 +1,5 @@
 <?php
-namespace local\form_adding;
+namespace local\formAdding;
 
 class Model extends \common\Model{
     function process() {

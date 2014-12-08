@@ -1,4 +1,4 @@
-define(["jquery","city_selection", "telephone_check","validate"], function($    ){
+define(["jquery","city_selection", "telephone_check","validate"], function($){
     function form_adding(container) {
         var z;
 
@@ -84,7 +84,7 @@ define(["jquery","city_selection", "telephone_check","validate"], function($    
                         var serializedData = $form.serializeArray();
 
                         request = $.ajax({
-                            url: 'http://www.xozmarket.by/component/form_adding/template/.default/validation.php',
+                            url: 'http://www.xozmarket.by/component/formAdding/template/.default/validation.php',
                             type: 'POST',
                             //contentType: 'application/json',
                             data: serializedData

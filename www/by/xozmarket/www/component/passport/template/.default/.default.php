@@ -38,7 +38,10 @@
                 <a href="component/passport/template/pipe.php?action=register&uid=<?= session_id() ?>">Регистрация</a>
             </div>
             <div>
-                <a href="component/form_adding/template/pipe.php?action=formAdd">Добавить продукт</a>
+                <a href="component/formAdding/template/pipe.php?action=formAdd">Добавить продукт</a>
+            </div>
+            <div>
+                <a href="component/imageAdding/template/pipe.php?action=imageAdd">Добавить изображение</a>
             </div>
         </div>
     </div>

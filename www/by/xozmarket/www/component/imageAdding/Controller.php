@@ -1,5 +1,5 @@
 <?php
-namespace local\form_adding;
+namespace local\imageAdding;
 
 class Controller {
 
@@ -13,8 +13,8 @@ class Controller {
     function process() {
         switch($value = \RequestCheck::mine("action")) {
 
-            case "formAdd":
-                $this->formAdd();
+            case "imageAdd":
+                $this->imageAdd();
                 break;
         }
 
@@ -26,8 +26,8 @@ class Controller {
     }
 
 
-    function formAdd() {
-        header("Location: http://{$GLOBALS["host"]->name}.{$GLOBALS["host"]->host}.{$GLOBALS["host"]->zone}/formAdd.php");
+    function imageAdd() {
+        header("Location: http://{$GLOBALS["host"]->name}.{$GLOBALS["host"]->host}.{$GLOBALS["host"]->zone}/imageAdd.php");
     }
 
 

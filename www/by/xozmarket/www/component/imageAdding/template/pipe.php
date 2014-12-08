@@ -1,5 +1,5 @@
 <?php
-namespace local\form_adding;
+namespace local\imageAdding;
 
 //var_dump(dirname(dirname(__FILE__)) . "/Controller.php");
 require(dirname(dirname(__FILE__)) . "/Controller.php");

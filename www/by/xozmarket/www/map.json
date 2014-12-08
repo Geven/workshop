@@ -36,9 +36,15 @@
             "map": "/component/upload/",
             "root": "/common"
         },
-		        {
+		{
             "path": "/formAdd.php",
             "map": "/page/formAdd.php",
+            "root": "/www/by/xozmarket/www"
+        },
+		
+		{
+            "path": "/imageAdd.php",
+            "map": "/page/imageAdd.php",
             "root": "/www/by/xozmarket/www"
         }
 

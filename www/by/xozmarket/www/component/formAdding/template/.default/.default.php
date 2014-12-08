@@ -331,9 +331,9 @@ doesnotexist:-o-prefocus, #companyTelephoneLabel {
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
         <script type="text/javascript">
-            require.paths.form_adding = "/component/form_adding/template/<?= $this->template ?>/js/form_adding";
-            require.paths.city_selection = "/component/form_adding/template/<?= $this->template ?>/js/city_selection";
-            require.paths.telephone_check = "/component/form_adding/template/<?= $this->template ?>/js/telephone_check";
+            require.paths.form_adding = "/component/formAdding/template/<?= $this->template ?>/js/form_adding";
+            require.paths.city_selection = "/component/formAdding/template/<?= $this->template ?>/js/city_selection";
+            require.paths.telephone_check = "/component/formAdding/template/<?= $this->template ?>/js/telephone_check";
         </script>
 
     <link class="form_adding">
